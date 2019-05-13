@@ -1,0 +1,148 @@
+/* SES CSS by Tee Jay Zajac */
+/* VARIABLES */
+:root {
+
+    --white: #fff;
+    --black: #000;
+    --gray: #ECECED;
+    --light-gray: #F7F7F8;
+    --primary: #D5213D;
+}
+
+/* BASIC BODY ELEMENTS */
+
+a {
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+a.nav-link {
+    color: var(--white) !important;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: var(--black) !important;
+    color: var(--white);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background: url(../img/footer_data_pattern.png) no-repeat left top;
+}
+
+footer h5 {
+    text-transform: uppercase;
+}
+
+footer p a {
+    color: var(--white);
+    text-transform: lowercase;
+}
+
+/* NAVS */
+
+.navbar-dark {
+    background-color: var(--black) !important;
+    color: var(--white);
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+
+.jumbotron {
+    background-color: var(--black);
+    color: var(--white);
+    padding-bottom: 0;
+}
+
+
+/* BUTTONS */
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+button.nav-link.btn-dark {
+    background-color: var(--black);
+    border-color: var(--white);
+}
+
+/* LISTS */
+
+li.list-group-item {
+    background-color: var(--light-gray);
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+span.primary-numbers {
+    font-size: 2rem;
+    color: var(--primary);
+    padding: 0.25rem 1rem;
+}
+
+/* CARDS */
+
+div.card.card-no-border {
+    border: none !important;
+}
+
+div.card-footer {
+    background-color: var(--white);
+    border-top: none;
+}
+
+/* RANDOMS */
+
+/* BACKGROUND */
+
+div.gray-gradient {
+    background-image: linear-gradient(white 60%, #F7F7F8);
+}
+
+.gray-background {
+    background-color: var(--gray);
+}
+
+/* BLOCKQUOTES */
+
+.blockquote {
+    font-weight: bold;
+    border-left: 0.5rem solid var(--primary);
+    padding-left: 2rem;
+}
+
+.blockquote h3 {
+    font-weight: bold;
+}
+
+.blockquote-vertical {
+    font-weight: normal;
+    border-left: none;
+}
+
+/* OVERLAY TEXT ON IMG */
+
+.caption-center {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.caption-center p {
+    color: var(--white);
+    text-transform: uppercase;
+}
