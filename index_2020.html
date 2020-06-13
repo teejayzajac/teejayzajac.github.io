@@ -34,6 +34,9 @@
         div.work-item-main {
             margin: 12rem 0;
         }
+        div.work-item-main-first {
+            margin: 6rem 0 12rem 0;
+        }
     </style>
 </head>
 
@@ -43,14 +46,14 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/#">TeeJay Zajac</a>
+                <a class="navbar-brand" href="index.html">TeeJay Zajac</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#portfolio">Work<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Work</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -75,16 +78,6 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <h1 class="name pad-top"></h1>
-                    <p class="skills pad-top">Designer</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">TeeJay Zajac</h1>
@@ -93,21 +86,19 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center pad-bottom">
-                    <h2><u>Work</u></h2>
-                </div>
-            </div>
-            <div class="work-item-main">
+            <h2 class="h1 text-center">Work</h2>
+            <div class="work-item-main-first">
                 <div class="row">
                     <div class="col-lg-7">
-                        <img src="img/portfolio/dq/DQ_4-17-20_GP.png" class="img-fluid" alt="Computer showing SES homepage" />
+                        <img src="img/portfolio/dq/DQ_4-14-20_GP.png" class="img-fluid" alt=" " />
                     </div>
                     <div class="col-lg-5">
-                        <h3>The Daily Quarantine</h3>
+                        <h3 class="h2">The Daily Quarantine</h3>
                         <h4>Various Graphics</h4>
-                        <p>[ description goes here ]</p>
+                        <p>A daily graphic exercise during the 2020 coronavirus stay-at-home quarantine. Early on in the pandemic, I felt there was a lot of misinformation so my goal was to create an infographic based on CDC recommendations related to COVID-19 every weekday and post it on my Instagram story. I also wanted to touch on events and feelings related to the pandemic to connect with my audience and tell my version of this history.</p>
+                        <p>Stylistically, I wanted to embrace the safety signage and war propaganda poster aesthetic but add more attitude to it. </p>
                         <p><a href="portfolio_dq.html">View the gallery</a></p>
+                        <p><small><b>Roles:</b> Graphic Design, Illustration</small></p>
                     </div>
                     <!-- <img src="img/portfolio/iPhoneX_Blank.png" class="img-fluid" alt="iPhone X" /> -->
                 </div>
@@ -115,7 +106,7 @@
             <div class="work-item-main">
                 <div class="row pb-5">
                     <div class="col-lg-5">
-                        <h3>Encore Galaxy Pavillion</h3>
+                        <h3 class="h2">Encore Galaxy Pavillion</h3>
                         <h4>Environmental Graphics</h4>
                         <p><b>Client:</b> <a href="https://www.ncl.com/" target="_blank">Norwegian Cruise Lines</a></p>
                         <p><small>Designed in collaboration with Devin Meeks.</small></p>
@@ -136,32 +127,44 @@
                         <div class="pb-4">
                             <img src="img/portfolio/galaxy/NCL_Encore_Galaxy_Floor-1.png" class="img-fluid" alt="" />
                         </div>
-                        <p class="text-center">Black Hole Floor Graphic</p>
+                        <p class="text-center">Black Hole Graphic</p>
                     </div>
                     <div class="col-lg-4">
                         <div class="pb-4">
                             <img src="img/portfolio/galaxy/NCL_Encore_Galaxy_Floor-2.png" class="img-fluid" alt="" />
                         </div>
-                        <p class="text-center">Milky Way Floor Graphic</p>
+                        <p class="text-center">Milky Way Graphic</p>
                     </div>
                     <div class="col-lg-3">
                         <div class="pb-4">
                             <img src="img/portfolio/galaxy/NCL_Encore_Galaxy_Planet_Decal_12in.png" class="img-fluid" alt="" />
                         </div>
-                        <p class="text-center">Planet Floor Graphic</p>
+                        <p class="text-center">Planet Graphic</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card mb-4 shadow">
+                            <img src="img/portfolio/galaxy/NCL_Encore_Galaxy_Floor-1_BH_InSitu.JPG" class="img-fluid" alt="" />
+                        </div>
+                        <p class="text-center">Black Hole Graphic Installed</p>
                     </div>
                     <div class="col-lg-4">
-                        <div class="pb-4">
+                        <div class="card mb-4 shadow">
+                            <img src="img/portfolio/galaxy/NCL_Encore_Galaxy_Floor-2_Trck_InSitu2.JPG" class="img-fluid" alt="" />
+                        </div>
+                        <p class="text-center">Milky Way Graphic Installed</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-4 shadow">
                             <img src="img/portfolio/galaxy/NCL_Encore_Planet_InSitu.JPG" class="img-fluid" alt="" />
                         </div>
-                        <p class="text-center">Black Hole Floor Graphic</p>
+                        <p class="text-center">Planet Graphic Installed</p>
                     </div>
-                    <div class="col-lg-4">
+                    <!-- <div class="col-lg-4">
                         <div class="pb-4">
                             <img src="img/portfolio/galaxy/NCL_Encore_2-Galaxy_Floor-2_Installation_Instruction_Portfolio.png" class="img-fluid" alt="" />
                         </div>
                         <p class="text-center">Milky Way Floor Graphic</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="work-item-main">
@@ -322,38 +325,28 @@
                 </div>
     </section>
     <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="pad-bottom"><u>About</u></h2>
-                    <p class="text-center"><i class="fa fa-hand-peace-o fa-3x"></i></p>
-                    <h3 class="pad-bottom">Greetings!</h3>
+    <div class="bg-secondary text-white work-item-main">
+        <section id="about">
+            <div class="container py-5">
+                <h2 class="h1 text-center">About</h2>
+                <div class="row">
+                    <div>
+                        <p>Hello! I'm TeeJay Zajac, a designer based in beautiful Charleston, South Carolina. I have over 14 years of professional design experience making everything from vinyl records to websites and even clothes. When not staring at (or through) a monitor agonizing over Design I enjoy <a href="https://djstumble.bandcamp.com/releases" target="_blank">DJing</a>, photography, drawing, and running.</p>
+                        <p>Thank you for taking the time out of your day to view my work!</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div>
-                    <p>I'm Tee Jay Zajac a designer based in Charleston, South Carolina, spending my days in pursuit of good music and design. When not staring at a monitor agonizing over design I enjoy running, reading, <a href="">DJing</a>, and talking about music to absurd lengths. Thank you for taking time out of your day to view my work!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="pad-bottom"><u>Contact Me</u></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <p class="text-center"><a href="mailto:teejay.zajac@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a></p>
-                    <h4 class="text-center pad-bottom">email: <a href="mailto:teejay.zajac@gmail.com">teejay.zajac@gmail.com</a></h4>
-                    <p class="text-center"><small>Resume&ensp;<i class="fa fa-file-text-o"></i>&ensp;&nbsp;References&ensp;<i class="fa fa-users"></i>&nbsp;&ensp;&amp;&ensp;&nbsp;Physical Portfolio&ensp;<i class="fa fa-briefcase"></i>&ensp;Available Upon Request</small> </p>
-                </div>
+            <h2 class="h1 text-center">Contact Me</h2>
+            <div>
+                <p class="h5 text-center pb-4">email: <a href="mailto:teejay.zajac@gmail.com">teejay.zajac@gmail.com</a></p>
+                <p class="h5 text-center pb-2">Follow Me</p>
+                <p class="h3 text-center"><a href="https://instagram.com/s_t_u_m_b_l_e" target="blank"><i class="fa fa-instagram"></i></a>&emsp;<a href="https://www.behance.net/teejayzajac" target="blank"><i class="fa fa-behance"></i></a></p>
+                <p class="text-center"><small>Resume&ensp;<i class="fa fa-file-text-o"></i>&ensp;&nbsp;References&ensp;<i class="fa fa-users"></i>&nbsp;&ensp;&amp;&ensp;&nbsp;Physical Portfolio&ensp;<i class="fa fa-briefcase"></i>&ensp;Available Upon Request</small> </p>
             </div>
         </div>
     </section>
@@ -363,7 +356,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Tee Jay Zajac
+                        Copyright &copy; TeeJay Zajac
                     </div>
                 </div>
             </div>
