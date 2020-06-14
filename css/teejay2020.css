@@ -2,6 +2,10 @@ div.work-item-main {
     margin: 12rem 0;
 }
 
+div.work-item-main-first {
+    margin: 6rem 0 12rem 0;
+}
+
 div.body-content {
     padding-top: 3rem;
 }
@@ -9,4 +13,24 @@ div.body-content {
 .jumbotron-dq {
     background-color: #00AEEF;
     background-size: cover;
+}
+
+.jumbotron-hp {
+    background: url('../img/teejay_jumbo3.jpg') top center;
+    min-height: 60rem;
+}
+
+.bg-brand {
+    background-color: #fd8246;
+}
+
+h2#about::before,
+h2#contact::before,
+h2#portfolio::before {
+    display: block;
+    content: " ";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden;
+    pointer-events: none;
 }
