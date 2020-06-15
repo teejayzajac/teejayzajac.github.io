@@ -24,13 +24,34 @@ div.body-content {
     background-color: #fd8246;
 }
 
+/* STICKY HEADER FIX */
+
 h2#about::before,
 h2#contact::before,
 h2#portfolio::before {
     display: block;
     content: " ";
-    /*margin-top: -285px;*/
-    /*height: 285px;*/
+    margin-top: -285px;
+    height: 285px;
     visibility: hidden;
     pointer-events: none;
+}
+
+/* BOOTSTRAP OVER WRITES */
+
+a {
+    color: #227d75;
+}
+
+a:hover {
+    color: #fd8246;
+}
+
+.btn-primary {
+    background-color: #227d75;
+    border-color: #227d75; 
+}
+.btn-primary:hover {
+    background-color: #fd8246;
+    border-color: #fd8246; 
 }
