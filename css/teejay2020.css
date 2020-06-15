@@ -15,6 +15,8 @@ div.body-content {
     background-size: cover;
 }
 
+/* HOMEPAGE STYLES */
+
 .jumbotron-hp {
     background: url('../img/teejay_jumbo.jpg') top center;
     min-height: 60rem;
@@ -49,9 +51,10 @@ a:hover {
 
 .btn-primary {
     background-color: #227d75;
-    border-color: #227d75; 
+    border-color: #227d75;
 }
+
 .btn-primary:hover {
     background-color: #fd8246;
-    border-color: #fd8246; 
+    border-color: #fd8246;
 }
